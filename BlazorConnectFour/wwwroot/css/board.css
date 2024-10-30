@@ -1,0 +1,41 @@
+﻿.board {
+    background-color: slategrey;
+    display: flex;
+    flex-direction: row;
+    max-width: 850px;
+    min-height: 590px;
+    margin: 20px;
+    padding:10px;
+    border-radius: 15px;
+}
+
+.column {
+    min-width: 100px;
+    min-height: 100px;
+    height: 100%;
+}
+
+.gamepiece {
+    border: solid 1px black;
+    margin: 5px;
+    min-height: 100px;
+    min-width: 100px;
+    border-radius: 100px;
+}
+
+.red {
+    background-color: red;
+    background-image: url("https://i.pinimg.com/736x/ca/f9/92/caf9925858d2a510f548693c54ee3e6e.jpg");
+    background-size: 100% 100%;
+}
+
+.yellow {
+    background-color: yellow;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/364/023/non_2x/scary-pumpkin-face-on-yellow-orange-gradient-vector.jpg");
+    background-size: 100% 100%;
+    
+}
+
+.blank {
+    background-color: black;
+}
